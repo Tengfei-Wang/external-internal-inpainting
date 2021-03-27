@@ -5,8 +5,8 @@ This repository is for the CVPR 2021 paper: 'Image Inpainting with External-inte
 
 ## Introduction
 The proposed method can be  applied to improve the color consistency of leaning-based image inpainting results.   The progressive internal color propagation  shows strong performance even with large mask ratios. 
-<img src="pics/color.jpg" height="335px"/>
-<img src="pics/multi-ratio.jpg" height="395px"/>
+<img src="pics/color.jpg" height="220px"/>
+<img src="pics/multi-ratio.jpg" height="260px"/>
 ## Prerequisites
 - Python 3.6
 - Pytorch 1.6
