@@ -33,4 +33,4 @@ If you find this work useful for your research, please cite:
 
 
 ## Contact
-Please send email to tengfeiwang12@gmail.com  if there is any question
+Please send emails to tengfeiwang12@gmail.com  if there is any question
