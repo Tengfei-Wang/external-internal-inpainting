@@ -3,6 +3,9 @@ This repository is for the CVPR 2021 paper: 'Image Inpainting with External-inte
 
 [paper]() | [project website]( )
 
+## Introduction
+The proposed method can be easily applied to improve the color consistency of leaning-based image inpainting results. 
+![]()
 ## Prerequisites
 - Python 3.6
 - Pytorch 1.6
