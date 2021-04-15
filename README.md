@@ -1,7 +1,7 @@
 # Image Inpainting with External-internal Learning and Monochromic Bottleneck
 This repository is for the CVPR 2021 paper: 'Image Inpainting with External-internal Learning and Monochromic Bottleneck'
 
-[paper]() | [project website]( )
+[paper](https://cqf.io/papers/Image_Inpainting_Monochromic_Bottleneck_CVPR2021.pdf) | [project website](https://tengfei-wang.github.io/EII/index.html )
 
 ## Introduction
 The proposed method can be  applied to improve the color consistency of leaning-based image inpainting results.   The progressive internal color propagation  shows strong performance even with large mask ratios. 
