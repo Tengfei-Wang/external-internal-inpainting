@@ -1,5 +1,5 @@
 # Image Inpainting with External-internal Learning and Monochromic Bottleneck
-This repository is for the CVPR 2021 paper: 'Image Inpainting with External-internal Learning and Monochromic Bottleneck'
+This repository is for our CVPR 2021 paper: Image Inpainting with External-internal Learning and Monochromic Bottleneck
 
 [paper](https://arxiv.org/abs/2104.09068) | [project website](https://tengfei-wang.github.io/EII/index.html )
 
