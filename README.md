@@ -30,10 +30,10 @@ If you find this work useful for your research, please cite:
 ```
 @InProceedings{wang2021image,
      title={Image Inpainting with External-internal Learning and Monochromic Bottleneck}, 
-     author={Tengfei Wang, Hao Ouyang and Qifeng Chen},
+     author={Tengfei Wang and Hao Ouyang and Qifeng Chen},
      booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
      year = {2021}
-}             
+}              
 ```
 
 
