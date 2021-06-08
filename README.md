@@ -24,6 +24,7 @@ To try our internal colorization method:
 python main.py  --img_path images/input2.png --gray_path images/gray2.png  --mask_path images/mask2.png  --pyramid_height 3
 ```
 The colorization results are placed in ./results.
+For the monochromic reconstruction stage, multiple inpainting networks can be applied as backbones.
 
 ## Citation
 If you find this work useful for your research, please cite:
