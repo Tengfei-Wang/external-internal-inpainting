@@ -28,13 +28,15 @@ For the monochromic reconstruction stage, multiple inpainting networks can be ap
 
 ## Citation
 If you find this work useful for your research, please cite:
-```
-@InProceedings{wang2021image,
-     title={Image Inpainting with External-internal Learning and Monochromic Bottleneck}, 
-     author={Tengfei Wang and Hao Ouyang and Qifeng Chen},
-     booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-     year = {2021}
-}              
+``` 
+@InProceedings{Wang_2021_CVPR,
+    author    = {Wang, Tengfei and Ouyang, Hao and Chen, Qifeng},
+    title     = {Image Inpainting With External-Internal Learning and Monochromic Bottleneck},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {5120-5129}
+}
 ```
 
 
