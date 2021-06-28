@@ -24,7 +24,13 @@ To try our internal colorization method:
 python main.py  --img_path images/input2.png --gray_path images/gray2.png  --mask_path images/mask2.png  --pyramid_height 3
 ```
 The colorization results are placed in ./results.
-For the monochromic reconstruction stage, multiple inpainting networks can be applied as backbones.
+
+For the monochromic reconstruction stage, multiple inpainting networks can be applied as backbones by modifying the original input image, like:
+```
+input_new = torch.concat([input_RGB, input_gray],1) #input_new is 4-channel
+output = backbone_model(input_new, mask) #output is single-channel
+loss = criterion(output, input_gray)
+```
 
 ## Citation
 If you find this work useful for your research, please cite:
