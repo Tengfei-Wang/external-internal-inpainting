@@ -12,6 +12,10 @@ The proposed method can be  applied to improve the color consistency of leaning-
 - Pytorch 1.6
 - Numpy
 
+## TO DO
+- [x] Release code for internal guided colorization
+- [ ] Release  pretrained models on multiple backbone networks
+
 ## Installation
 ```
 git clone https://github.com/Tengfei-Wang/external-internal-inpainting.git
