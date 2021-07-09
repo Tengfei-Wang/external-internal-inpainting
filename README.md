@@ -39,13 +39,12 @@ loss = criterion(output, input_gray)
 ## Citation
 If you find this work useful for your research, please cite:
 ``` 
-@InProceedings{Wang_2021_CVPR,
-    author    = {Wang, Tengfei and Ouyang, Hao and Chen, Qifeng},
-    title     = {Image Inpainting With External-Internal Learning and Monochromic Bottleneck},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
-    year      = {2021},
-    pages     = {5120-5129}
+@inproceedings{wang2021image,
+  title={Image Inpainting with External-internal Learning and Monochromic Bottleneck},
+  author={Wang, Tengfei and Ouyang, Hao and Chen, Qifeng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={5120--5129},
+  year={2021}
 }
 ```
 
