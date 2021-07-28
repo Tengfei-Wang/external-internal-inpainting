@@ -23,12 +23,15 @@ cd external-internal-inpainting
 ```
 
 ## Quick Start 
+### Colorization
 To try our internal colorization method:
 ```
 python main.py  --img_path images/input2.png --gray_path images/gray2.png  --mask_path images/mask2.png  --pyramid_height 3
 ```
-The colorization results are placed in ./results.
+The colorization results are placed in ./results.  
+In case the colorization results are unsatisfactory, you may consider changing the pyramid_height (2~5 work well for most cases).
 
+### Reconstruction
 For the monochromic reconstruction stage, multiple inpainting networks can be applied as backbones by modifying the original input image, like:
 ```
 input_new = torch.concat([input_RGB, input_gray],1) #input_new is 4-channel
